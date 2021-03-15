@@ -27,8 +27,8 @@ function App() {
   ])
 
   return (
-    <div className="App">
-      <Header name="Todo"/>
+    <div id="container" className="App">
+      <Header name="ToDo application"/>
       <Todos todos={todos}/>
     </div>
   );
